@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FakeSurfaceAndBottom4
+  m_Shader: {fileID: 4800000, guid: 356a9c3b78d27354981e7da54f3a0ba4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BottomTex:
+        m_Texture: {fileID: 2800000, guid: 62af9cce9c68a684bafae498a9d33780, type: 3}
+        m_Scale: {x: 2, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: ab6301d4d70bdd34988cf73f908054f4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 0c2ab2a1c4018714989a955420ef3da3, type: 3}
+        m_Scale: {x: 2, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 84bf3794639f72a4c9ee3cbaf60344b7, type: 3}
+        m_Scale: {x: 1, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _SpeedMask:
+        m_Texture: {fileID: 2800000, guid: 8ef5b3073dc591f498ce8c0e935e68ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex0:
+        m_Texture: {fileID: 2800000, guid: 3e3810b72e3255b4ea0ad31eeb9bed52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FakeDepth: 0.04
+    - _WaterSpeed: 0.3
+    - _WaveAmp: 1
+    - _WaveFreq: 33
+    m_Colors:
+    - _BallPos: {r: 881.6951, g: 18.64749, b: 1898.566, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _StonePos: {r: 36.87959, g: 36.87959, b: 36.87959, a: 1}
+    - _xBallPos: {r: 0, g: 0, b: 0, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

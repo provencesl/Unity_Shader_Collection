@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 1687a1510dafb1549b57a4456ab27c87
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature.001
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.004
+    100010: Cube.005
+    100012: Cube.006
+    100014: Cube.007
+    100016: Cube.008
+    100018: Cube.009
+    100020: Cube.010
+    100022: Cube.012
+    100024: Cube.013
+    100026: Cube.014
+    100028: Cube.015
+    100030: Cube.016
+    100032: Cube.017
+    100034: Cube.018
+    100036: Cube.020
+    100038: Cube.021
+    100040: Cube.022
+    100042: Cube.023
+    100044: Cube.024
+    100046: Cube.025
+    100048: Cube.026
+    100050: Cube.027
+    100052: Cube.028
+    100054: Cube.029
+    100056: Cube.030
+    100058: Cube.031
+    100060: Cube.032
+    100062: Cube.033
+    100064: Cube.034
+    100066: Cube.035
+    100068: Cube.036
+    100070: Cube.037
+    100072: Cube.038
+    100074: Cube.039
+    100076: Cube.040
+    100078: Cube.041
+    100080: Cube.042
+    100082: Cube.043
+    100084: Cylinder
+    100086: //RootNode
+    100088: "\u0411\u0435\u0434\u0440\u043E \u041B"
+    100090: "\u0411\u0435\u0434\u0440\u043E \u041F"
+    100092: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_01 \u041B"
+    100094: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_01 \u041F"
+    100096: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_02 \u041B"
+    100098: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_02 \u041B_end"
+    100100: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_02 \u041F"
+    100102: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_02 \u041F_end"
+    100104: "\u0413\u043E\u043B\u0435\u043D\u044C \u041B"
+    100106: "\u0413\u043E\u043B\u0435\u043D\u044C \u041B_end"
+    100108: "\u0413\u043E\u043B\u0435\u043D\u044C \u041F"
+    100110: "\u0413\u043E\u043B\u0435\u043D\u044C \u041F_end"
+    100112: "\u0413\u043E\u043B\u043E\u0432\u0430"
+    100114: "\u0413\u043E\u043B\u043E\u0432\u0430_end"
+    100116: "\u0413\u0440\u0443\u0434\u044C"
+    100118: "\u0416\u0438\u0432\u043E\u0442"
+    100120: "\u041A\u0438\u0441\u0442\u044C \u0418\u041A \u041B"
+    100122: "\u041A\u0438\u0441\u0442\u044C \u0418\u041A \u041B_end"
+    100124: "\u041A\u0438\u0441\u0442\u044C \u0418\u041A \u041F"
+    100126: "\u041A\u0438\u0441\u0442\u044C \u0418\u041A \u041F_end"
+    100128: "\u041A\u0438\u0441\u0442\u044C \u041B"
+    100130: "\u041A\u0438\u0441\u0442\u044C \u041F"
+    100132: "\u041A\u043E\u043B\u0435\u043D\u043E \u0418\u041A \u041B"
+    100134: "\u041A\u043E\u043B\u0435\u043D\u043E \u0418\u041A \u041B_end"
+    100136: "\u041A\u043E\u043B\u0435\u043D\u043E \u0418\u041A \u041F"
+    100138: "\u041A\u043E\u043B\u0435\u043D\u043E \u0418\u041A \u041F_end"
+    100140: "\u041B\u043E\u043A\u043E\u0442\u044C \u0418\u041A \u041B"
+    100142: "\u041B\u043E\u043A\u043E\u0442\u044C \u0418\u041A \u041B_end"
+    100144: "\u041B\u043E\u043A\u043E\u0442\u044C \u0418\u041A \u041F"
+    100146: "\u041B\u043E\u043A\u043E\u0442\u044C \u0418\u041A \u041F_end"
+    100148: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_01 \u041B"
+    100150: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_01 \u041F"
+    100152: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_02 \u041B"
+    100154: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_02 \u041B_end"
+    100156: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_02 \u041F"
+    100158: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_02 \u041F_end"
+    100160: "\u041F\u043B\u0435\u0447\u043E \u041B"
+    100162: "\u041F\u043B\u0435\u0447\u043E \u041F"
+    100164: "\u041F\u0440\u0435\u0434\u043F\u043B\u0435\u0447\u044C\u0435 \u041B"
+    100166: "\u041F\u0440\u0435\u0434\u043F\u043B\u0435\u0447\u044C\u0435 \u041F"
+    100168: "\u041F\u044F\u0442\u043A\u0430 \u0418\u041A \u041B"
+    100170: "\u041F\u044F\u0442\u043A\u0430 \u0418\u041A \u041F"
+    100172: "\u0421\u0442\u043E\u043F\u0430 \u041B"
+    100174: "\u0421\u0442\u043E\u043F\u0430 \u041B_end"
+    100176: "\u0421\u0442\u043E\u043F\u0430 \u041F.001"
+    100178: "\u0421\u0442\u043E\u043F\u0430 \u041F.001_end"
+    100180: "\u0422\u0430\u0437"
+    100182: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_01 \u041B"
+    100184: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_01 \u041F"
+    100186: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_02 \u041B"
+    100188: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_02 \u041B_end"
+    100190: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_02 \u041F"
+    100192: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_02 \u041F_end"
+    100194: "\u0428\u0435\u044F"
+    400000: Armature.001
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.004
+    400010: Cube.005
+    400012: Cube.006
+    400014: Cube.007
+    400016: Cube.008
+    400018: Cube.009
+    400020: Cube.010
+    400022: Cube.012
+    400024: Cube.013
+    400026: Cube.014
+    400028: Cube.015
+    400030: Cube.016
+    400032: Cube.017
+    400034: Cube.018
+    400036: Cube.020
+    400038: Cube.021
+    400040: Cube.022
+    400042: Cube.023
+    400044: Cube.024
+    400046: Cube.025
+    400048: Cube.026
+    400050: Cube.027
+    400052: Cube.028
+    400054: Cube.029
+    400056: Cube.030
+    400058: Cube.031
+    400060: Cube.032
+    400062: Cube.033
+    400064: Cube.034
+    400066: Cube.035
+    400068: Cube.036
+    400070: Cube.037
+    400072: Cube.038
+    400074: Cube.039
+    400076: Cube.040
+    400078: Cube.041
+    400080: Cube.042
+    400082: Cube.043
+    400084: Cylinder
+    400086: //RootNode
+    400088: "\u0411\u0435\u0434\u0440\u043E \u041B"
+    400090: "\u0411\u0435\u0434\u0440\u043E \u041F"
+    400092: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_01 \u041B"
+    400094: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_01 \u041F"
+    400096: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_02 \u041B"
+    400098: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_02 \u041B_end"
+    400100: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_02 \u041F"
+    400102: "\u0411\u043E\u043B. \u041F\u0430\u043B\u0435\u0446_02 \u041F_end"
+    400104: "\u0413\u043E\u043B\u0435\u043D\u044C \u041B"
+    400106: "\u0413\u043E\u043B\u0435\u043D\u044C \u041B_end"
+    400108: "\u0413\u043E\u043B\u0435\u043D\u044C \u041F"
+    400110: "\u0413\u043E\u043B\u0435\u043D\u044C \u041F_end"
+    400112: "\u0413\u043E\u043B\u043E\u0432\u0430"
+    400114: "\u0413\u043E\u043B\u043E\u0432\u0430_end"
+    400116: "\u0413\u0440\u0443\u0434\u044C"
+    400118: "\u0416\u0438\u0432\u043E\u0442"
+    400120: "\u041A\u0438\u0441\u0442\u044C \u0418\u041A \u041B"
+    400122: "\u041A\u0438\u0441\u0442\u044C \u0418\u041A \u041B_end"
+    400124: "\u041A\u0438\u0441\u0442\u044C \u0418\u041A \u041F"
+    400126: "\u041A\u0438\u0441\u0442\u044C \u0418\u041A \u041F_end"
+    400128: "\u041A\u0438\u0441\u0442\u044C \u041B"
+    400130: "\u041A\u0438\u0441\u0442\u044C \u041F"
+    400132: "\u041A\u043E\u043B\u0435\u043D\u043E \u0418\u041A \u041B"
+    400134: "\u041A\u043E\u043B\u0435\u043D\u043E \u0418\u041A \u041B_end"
+    400136: "\u041A\u043E\u043B\u0435\u043D\u043E \u0418\u041A \u041F"
+    400138: "\u041A\u043E\u043B\u0435\u043D\u043E \u0418\u041A \u041F_end"
+    400140: "\u041B\u043E\u043A\u043E\u0442\u044C \u0418\u041A \u041B"
+    400142: "\u041B\u043E\u043A\u043E\u0442\u044C \u0418\u041A \u041B_end"
+    400144: "\u041B\u043E\u043A\u043E\u0442\u044C \u0418\u041A \u041F"
+    400146: "\u041B\u043E\u043A\u043E\u0442\u044C \u0418\u041A \u041F_end"
+    400148: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_01 \u041B"
+    400150: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_01 \u041F"
+    400152: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_02 \u041B"
+    400154: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_02 \u041B_end"
+    400156: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_02 \u041F"
+    400158: "\u041E\u0441\u0442. \u041F\u0430\u043B\u044C\u0446\u044B_02 \u041F_end"
+    400160: "\u041F\u043B\u0435\u0447\u043E \u041B"
+    400162: "\u041F\u043B\u0435\u0447\u043E \u041F"
+    400164: "\u041F\u0440\u0435\u0434\u043F\u043B\u0435\u0447\u044C\u0435 \u041B"
+    400166: "\u041F\u0440\u0435\u0434\u043F\u043B\u0435\u0447\u044C\u0435 \u041F"
+    400168: "\u041F\u044F\u0442\u043A\u0430 \u0418\u041A \u041B"
+    400170: "\u041F\u044F\u0442\u043A\u0430 \u0418\u041A \u041F"
+    400172: "\u0421\u0442\u043E\u043F\u0430 \u041B"
+    400174: "\u0421\u0442\u043E\u043F\u0430 \u041B_end"
+    400176: "\u0421\u0442\u043E\u043F\u0430 \u041F.001"
+    400178: "\u0421\u0442\u043E\u043F\u0430 \u041F.001_end"
+    400180: "\u0422\u0430\u0437"
+    400182: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_01 \u041B"
+    400184: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_01 \u041F"
+    400186: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_02 \u041B"
+    400188: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_02 \u041B_end"
+    400190: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_02 \u041F"
+    400192: "\u0423\u043A. \u041F\u0430\u043B\u0435\u0446_02 \u041F_end"
+    400194: "\u0428\u0435\u044F"
+    2100000: Material.001
+    2100002: Material
+    2100004: Material.004
+    2100006: Material.002
+    2100008: Material.003
+    2300000: Cube.001
+    2300002: Cube.002
+    2300004: Cube.003
+    2300006: Cube.004
+    2300008: Cube.005
+    2300010: Cube.006
+    2300012: Cube.007
+    2300014: Cube.008
+    2300016: Cube.009
+    2300018: Cube.010
+    2300020: Cube.012
+    2300022: Cube.013
+    2300024: Cube.014
+    2300026: Cube.015
+    2300028: Cube.016
+    2300030: Cube.017
+    2300032: Cube.018
+    2300034: Cube.020
+    2300036: Cube.021
+    2300038: Cube.022
+    2300040: Cube.023
+    2300042: Cube.024
+    2300044: Cube.025
+    2300046: Cube.026
+    2300048: Cube.027
+    2300050: Cube.028
+    2300052: Cube.029
+    2300054: Cube.030
+    2300056: Cube.031
+    2300058: Cube.032
+    2300060: Cube.033
+    2300062: Cube.034
+    2300064: Cube.035
+    2300066: Cube.036
+    2300068: Cube.037
+    2300070: Cube.038
+    2300072: Cube.039
+    2300074: Cube.040
+    2300076: Cube.041
+    2300078: Cube.042
+    2300080: Cube.043
+    2300082: Cylinder
+    3300000: Cube.001
+    3300002: Cube.002
+    3300004: Cube.003
+    3300006: Cube.004
+    3300008: Cube.005
+    3300010: Cube.006
+    3300012: Cube.007
+    3300014: Cube.008
+    3300016: Cube.009
+    3300018: Cube.010
+    3300020: Cube.012
+    3300022: Cube.013
+    3300024: Cube.014
+    3300026: Cube.015
+    3300028: Cube.016
+    3300030: Cube.017
+    3300032: Cube.018
+    3300034: Cube.020
+    3300036: Cube.021
+    3300038: Cube.022
+    3300040: Cube.023
+    3300042: Cube.024
+    3300044: Cube.025
+    3300046: Cube.026
+    3300048: Cube.027
+    3300050: Cube.028
+    3300052: Cube.029
+    3300054: Cube.030
+    3300056: Cube.031
+    3300058: Cube.032
+    3300060: Cube.033
+    3300062: Cube.034
+    3300064: Cube.035
+    3300066: Cube.036
+    3300068: Cube.037
+    3300070: Cube.038
+    3300072: Cube.039
+    3300074: Cube.040
+    3300076: Cube.041
+    3300078: Cube.042
+    3300080: Cube.043
+    3300082: Cylinder
+    4300000: Cube.003
+    4300002: Cube.004
+    4300004: Cube.001
+    4300006: Cube.005
+    4300008: Cube.002
+    4300010: Cube.008
+    4300012: Cube.035
+    4300014: Cube.036
+    4300016: Cube.006
+    4300018: Cube.037
+    4300020: Cube.018
+    4300022: Cube.021
+    4300024: Cube.020
+    4300026: Cube.022
+    4300028: Cube.023
+    4300030: Cube.024
+    4300032: Cube.025
+    4300034: Cube.009
+    4300036: Cube.041
+    4300038: Cube.042
+    4300040: Cube.007
+    4300042: Cube.043
+    4300044: Cube.026
+    4300046: Cube.028
+    4300048: Cube.027
+    4300050: Cube.029
+    4300052: Cube.030
+    4300054: Cube.031
+    4300056: Cube.032
+    4300058: Cube.013
+    4300060: Cube.017
+    4300062: Cube.033
+    4300064: Cube.010
+    4300066: Cube.034
+    4300068: Cube.014
+    4300070: Cube.038
+    4300072: Cube.039
+    4300074: Cube.012
+    4300076: Cube.040
+    4300078: Cube.016
+    4300080: Cube.015
+    4300082: Cylinder
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
